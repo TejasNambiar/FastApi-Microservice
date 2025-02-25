@@ -2,15 +2,16 @@
 
 Learning Python microservice
 
-| Spring Boot            | FastAPI (Industry Standard) | Explanation       |
-| ---------------------- | --------------------------- | ----------------- |
-| @RestController        | app/api/                    | Controllers       |
-| @Service               | app/services/               | Business Logic    |
-| @Repository            | app/repositories/           | Data Access Layer |
-| @Entity + @Table       | app/entity/                 | Database Models   |
-| application.properties | app/core/config.py + .env   | Configuration     |
-| Spring Security (JWT)  | app/core/security.py        | Auth & JWT        |
-| JUnit + Mockito        | pytest + unittest           | Unit Testing      |
+| Spring Boot              | FastAPI (Industry Standard)  | Explanation         |
+| ------------------------ | ---------------------------- | ------------------- |
+| @RestController          | app/api/                     | Controllers         |
+| @Service                 | app/services/                | Business Logic      |
+| @Repository              | app/repositories/            | Data Access Layer   |
+| @Entity + @Table         | app/entity/                  | Database Models     |
+| application.properties   | app/core/config.py + .env    | Configuration       |
+| Spring Security (JWT)    | app/core/security.py         | Auth & JWT          |
+| JUnit + Mockito          | pytest + unittest            | Unit Testing        |
+| ------------------------ | ---------------------------- | ------------------- |
 
 ## How Does request Work?
 
